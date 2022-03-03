@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Notes Application</h1>
+            <form action="">
+                <input type="text" id="note-title" placeholder="please write your note title">
+                <textarea name="" id="note-discription" placeholder="write discription"></textarea>
+
+
+                <button id="add-button"  >Save Note</button>
+            </form>
+
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Your Notes</h2>
+            <hr>
+            <div id="notes" class="notes">
+                <div id="note">
+                    <p class="note-counter">Note 1</p>
+                    <h3 class="note-title">Hello World</h3>
+                    <p class="note-text">Some Note Text</p>
+                    <button class="note-btn" >Delete Note</button>
+                    <button class="note-btn edit-btn" id="edit-bty">Edit Note</button>
+                    
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
